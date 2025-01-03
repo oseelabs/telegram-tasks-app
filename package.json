@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "bot:dev": "ts-node bot/index.ts",
     "build": "next build",
-    "start": "next start",
+    "start": "next start && ts-node bot/index.ts",
     "lint": "next lint"
   },
   "dependencies": {

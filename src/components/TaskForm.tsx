@@ -23,8 +23,6 @@ export default function TaskForm({ groupId }: TaskFormProps) {
                 createdAt: new Date(),
                 groupId,
             });
-
-            console.log('Task added successfully');
             setTitle('');
             setError(null);
         } catch (err) {
