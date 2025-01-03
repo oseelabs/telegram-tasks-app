@@ -25,6 +25,7 @@ export default function TaskList({ groupId }: TaskListProps) {
                     ...doc.data()
                 } as Task);
             });
+            console.log(taskList);
             setTasks(taskList);
         });
 
