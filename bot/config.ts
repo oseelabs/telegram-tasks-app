@@ -2,6 +2,8 @@
 const { config } = require('dotenv');
 const { resolve } = require('path');
 
+config();
+
 config({
     path: resolve(__dirname, '../.env.local')
 });
