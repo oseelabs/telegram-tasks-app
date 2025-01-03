@@ -24,9 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script defer src='/niphaumeenses.net/vignette.min.js' data-zone='8739820' data-sdk='show_8739820'></script>
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

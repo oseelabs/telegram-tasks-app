@@ -6,7 +6,6 @@ import { useLaunchParams } from "@telegram-apps/sdk-react";
 import Image from "next/image";
 import TaskForm from "@/components/TaskForm";
 import TaskList from "@/components/TaskList";
-import ShowAdButton from "@/components/ShowAdButton";
 
 const TaskBoardClient = dynamic(() => Promise.resolve(TaskBoard), {
   ssr: false,
@@ -81,7 +80,7 @@ function TaskBoard() {
       </header>
 
       <main className="flex fle-col gap-8">
-        <ShowAdButton />
+        <iframe slot="https://whomeenoaglauns.com/4/8739821"></iframe>
         <TaskForm groupId={groupId} />
         <TaskList groupId={groupId} />
       </main>
