@@ -24,6 +24,7 @@ export default function TaskForm({ groupId }: TaskFormProps) {
                 groupId,
             });
 
+            console.log('Task added successfully');
             setTitle('');
             setError(null);
         } catch (err) {
