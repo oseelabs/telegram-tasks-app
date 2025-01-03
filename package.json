@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "bot:dev": "node bot/index.ts",
+    "bot:dev": "tsc bot/index.ts && node bot/index.js",
     "build": "next build",
     "start": "next start && ts-node bot/index.ts",
     "lint": "next lint"
